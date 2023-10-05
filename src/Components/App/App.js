@@ -13,7 +13,7 @@ function App() {
         <h1>
           Welcome to Ja<span className="mmm">mmm</span>ing
         </h1>
-        <img src={vinyl} className="App-logo" alt="logo" />
+        <img style={{opacity:0.8}} src={vinyl} className="App-logo" alt="logo" />
         {/*put here a serchbar*/}
         <SearchBar />
         <p>
