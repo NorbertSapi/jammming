@@ -1,6 +1,7 @@
 import vinyl from '../../vinyl.jpg';
 import React, { useState, useEffect } from "react";
 import './App.css';
+import SearchBar from '../SearchBar/SearchBar';
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
           Welcome to Ja<span className="mmm">mmm</span>ing
         </h1>
         <img src={vinyl} className="App-logo" alt="logo" />
+        {/*put here a serchbar*/}
+        <SearchBar />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
