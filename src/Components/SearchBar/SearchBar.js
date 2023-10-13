@@ -6,6 +6,7 @@ function SearchBar(props) {
     const [search, setSearch] = useState('');
 
     const searching = () => {
+        /*I might have to use onChange instead, as I sill have the warning "onSearch is not supported"*/
         props.onSearch(search);
     }
 

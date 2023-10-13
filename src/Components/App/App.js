@@ -1,7 +1,8 @@
 import vinyl from '../../vinyl.jpg';
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
+import SearchResult from '../SearchResults/SearchResults';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <img style={{opacity:0.8}} src={vinyl} className="App-logo" alt="logo" />
         {/*put here a serchbar*/}
         <SearchBar />
+        <SearchResult/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
